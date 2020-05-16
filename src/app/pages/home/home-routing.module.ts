@@ -6,7 +6,15 @@ const routes: Routes = [
   {
     path: '',
     component: HomePage,
-  }
+  },
+  {
+    path: 'register',
+    loadChildren: () => import('../register/register.module').then( m => m.RegisterPageModule)
+  },
+  {
+    path: 'sesion',
+    loadChildren: () => import('../sesion/sesion.module').then( m => m.SesionPageModule)
+  },
 ];
 
 @NgModule({
