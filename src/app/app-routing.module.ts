@@ -11,14 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
-  {
-    path: 'register',
-    loadChildren: () => import('./pages/register/register.module').then( m => m.RegisterPageModule)
-  },
-  {
-    path: 'sesion',
-    loadChildren: () => import('./pages/sesion/sesion.module').then( m => m.SesionPageModule)
-  },
+  // {
+  //   path: 'register',
+  //   loadChildren: () => import('./pages/register/register.module').then( m => m.RegisterPageModule)
+  // },
+  // {
+  //   path: 'sesion',
+  //   loadChildren: () => import('./pages/sesion/sesion.module').then( m => m.SesionPageModule)
+  // },
 ];
 
 @NgModule({
