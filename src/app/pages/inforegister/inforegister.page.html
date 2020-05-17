@@ -1,9 +1,19 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>inforegister</ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-back-button slot="start">
+        </ion-back-button>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+    <div id="buttons">
+        <section>
+            <!-- <header>Block Width</header> -->
+            <ion-button color="dark" expand="block">GOOGLE</ion-button>
+        </section>
+        <section>
+            <!-- <header>Block Width</header> -->
+            <ion-button color="white" expand="block" (click)='infoRegister()'>CONTINUAR CON MI CORREO</ion-button>
+        </section>
+    </div>
 </ion-content>
