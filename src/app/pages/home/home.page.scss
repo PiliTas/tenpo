@@ -1,15 +1,18 @@
-.header{
+ion-content{
     background-color: #00BAA4;
-    
- }
+    margin: 0;
+}
 
- .home{
+
+ion-title {
+    line-height: 40px;
+    padding-left: 50px;
     background-color: #00BAA4;
- }
+    margin: 0;
+}
  
-
 #container {
-    margin-top: 10px;
+    margin: 0;
     text-align: center;
     text-decoration-color: white;
     position: absolute;
@@ -53,7 +56,7 @@
     font-size: 12px;
     height: 50px;
     outline: white;
-    --background-hover: white;
+    fill: white;
 }
 
 #buttonStartSession{
