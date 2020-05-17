@@ -1,16 +1,11 @@
-ion-content{
+.header {
     background-color: #00BAA4;
-    margin: 0;
 }
 
-
-ion-title {
-    line-height: 40px;
-    padding-left: 50px;
+.home {
     background-color: #00BAA4;
-    margin: 0;
 }
- 
+
 #container {
     margin: 0;
     text-align: center;
@@ -50,7 +45,7 @@ ion-title {
     color: white;
 }
 
-#buttonRegister{
+#buttonRegister {
     font-family: "GothamBold";
     fill: white;
     font-size: 12px;
@@ -59,7 +54,7 @@ ion-title {
     fill: white;
 }
 
-#buttonStartSession{
+#buttonStartSession {
     font-family: "GothamBold";
     text-decoration-color: white;
     font-size: 12px;
@@ -67,23 +62,21 @@ ion-title {
     fill: "outline";
     outline: white;
     --background-hover: white;
-    
 }
 
-h1{
+h1 {
     color: white;
     font-family: "GothamBold";
-    height: "29pt"; 
+    height: "29pt";
     width: "113pt";
     margin-top: "113pt";
     margin-right: "265pt";
 }
 
-h2{
+h2 {
     color: white;
     font-family: "GothamLight";
     // font-size: 36pt;
 }
-
 
 //**************

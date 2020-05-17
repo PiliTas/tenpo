@@ -11,22 +11,6 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
-  {
-    path: 'requiredid',
-    loadChildren: () => import('./pages/requiredid/requiredid.module').then( m => m.RequiredidPageModule)
-  },
-  {
-    path: 'inforegister',
-    loadChildren: () => import('./pages/inforegister/inforegister.module').then( m => m.InforegisterPageModule)
-  },
-  // {
-  //   path: 'register',
-  //   loadChildren: () => import('./pages/register/register.module').then( m => m.RegisterPageModule)
-  // },
-  // {
-  //   path: 'sesion',
-  //   loadChildren: () => import('./pages/sesion/sesion.module').then( m => m.SesionPageModule)
-  // },
 ];
 
 @NgModule({

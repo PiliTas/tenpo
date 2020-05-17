@@ -12,7 +12,7 @@ export class HomePage {
   }
 
 userRegister(){
-  this.router.navigateByUrl('/home/register')
+  this.router.navigateByUrl('/home/inforegister')
 }
 startSession(){
   this.router.navigateByUrl('/home/sesion')
