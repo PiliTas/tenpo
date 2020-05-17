@@ -7,7 +7,11 @@ const routes: Routes = [
   {
     path: '',
     component: InforegisterPage
-  }
+  },
+  {
+    path: 'requiredid',
+    loadChildren: () => import('../requiredid/requiredid.module').then( m => m.RequiredidPageModule)
+  },
 ];
 
 @NgModule({
