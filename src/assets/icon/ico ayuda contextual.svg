@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.5" height="25.5" viewBox="0 0 25.5 25.5">
+  <g id="ico_ayuda_contextual" data-name="ico ayuda contextual" transform="translate(0.75 0.75)">
+    <circle id="Elipse_10" data-name="Elipse 10" cx="12" cy="12" r="12" fill="none" stroke="#7255c8" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Trazado_51" data-name="Trazado 51" d="M-.071.125H1.536V-2.294c2.129-.3,3.7-1.562,3.7-3.9v-.037c0-2.129-1.662-3.7-4.184-3.7A5.377,5.377,0,0,0-3.339-7.76l.953.915A4.366,4.366,0,0,1,1.013-8.6a2.484,2.484,0,0,1,1.895.617,2.484,2.484,0,0,1,.831,1.811v.037c0,1.569-1.382,2.683-3.81,2.739Zm0,2.957H1.536V1.7H-.071Z" transform="translate(11.288 15.426)" fill="#7154c7"/>
+  </g>
+</svg>

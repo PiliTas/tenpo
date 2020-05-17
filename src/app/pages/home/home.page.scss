@@ -1,5 +1,17 @@
+.header{
+    background-color: #00BAA4;
+    
+ }
+
+ home{
+    background-color: #00BAA4;
+ }
+ 
+
 #container {
+    margin-top: 10px;
     text-align: center;
+    text-decoration-color: white;
     position: absolute;
     left: 0;
     right: 0;
@@ -8,7 +20,7 @@
     // it was added
     padding: 10px 20px;
     text-align: left;
-    background-color: #44e283;
+    background-color: #00BAA4;
     // *************
 }
 
@@ -30,7 +42,45 @@
 
 // code added
 #buttons {
-    margin-top: 150px;
+    margin-top: 40px;
+    font-family: "GothamBold";
+    color: white;
 }
+
+#buttonRegister{
+    font-family: "GothamBold";
+    fill: white;
+    font-size: 12px;
+    height: 50px;
+    outline: white;
+    --background-hover: white;
+}
+
+#buttonStartSession{
+    font-family: "GothamBold";
+    text-decoration-color: white;
+    font-size: 12px;
+    height: 50px;
+    fill: "outline";
+    outline: white;
+    --background-hover: white;
+    
+}
+
+h1{
+    color: white;
+    font-family: "GothamBold";
+    height: "29pt"; 
+    width: "113pt";
+    margin-top: "113pt";
+    margin-right: "265pt";
+}
+
+h2{
+    color: white;
+    font-family: "GothamLight";
+    // font-size: 36pt;
+}
+
 
 //**************

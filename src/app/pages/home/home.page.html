@@ -2,6 +2,8 @@
     <ion-toolbar>
         <ion-title>
             TENPO LOGO
+            <img alt="logo" height="40"   src="logo_2.svg" > 
+            
         </ion-title>
     </ion-toolbar>
 </ion-header>
@@ -15,17 +17,19 @@
 
     <div id="container">
         <strong><h1>¡Hola!</h1></strong>
-        <h1>
+        <h2>
             Te damos la <br> bienvenida
-        </h1>
+        </h2>
+        <br><br><br>
         <div id="buttons">
             <section>
                 <!-- <header>Block Width</header> -->
-                <ion-button color="dark" expand="block" (click)='userRegister()'>Crear una cuenta</ion-button>
+                <ion-button id="buttonRegister" color="primary-contrast" expand="block" (click)='userRegister()'>Crear una cuenta</ion-button>
             </section>
+            <br>
             <section>
                 <!-- <header>Block Width</header> -->
-                <ion-button color="white" expand="block" (click)='startSession()'>Iniciar sesión</ion-button>
+                <ion-button id="buttonStartSession" outline="white" color="bgColor" expand="block" (click)='startSession()'>Iniciar sesión</ion-button>
             </section>
         </div>
 
