@@ -8,9 +8,10 @@ const routes: Routes = [
     component: HomePage,
   },
   {
-    path: 'register',
-    loadChildren: () => import('../register/register.module').then( m => m.RegisterPageModule)
+    path: 'inforegister',
+    loadChildren: () => import('../inforegister/inforegister.module').then( m => m.InforegisterPageModule)
   },
+
   {
     path: 'sesion',
     loadChildren: () => import('../sesion/sesion.module').then( m => m.SesionPageModule)
