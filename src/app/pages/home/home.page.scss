@@ -5,11 +5,10 @@ ion-toolbar{
 }
 
 ion-title {
-    line-height: 48.83px;
+    height: 40.3px;
     padding: 10px 20px;
     background-color: #00BAA4;
-    left: 46.31px;
-    right: 0;
+    text-align: left;
     top: 66px;
 }
 
@@ -81,10 +80,15 @@ ion-header{
     
 }
 
+#container-text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 h1{
     color: white;
     font-family: "GothamBold";
-    height: "29pt"; 
+    font-size: 36px; 
     width: "113pt";
     margin-top: "113pt";
     margin-right: "265pt";
@@ -93,7 +97,7 @@ h1{
 h2{
     color: white;
     font-family: "GothamLight";
-    // font-size: 36pt;
+    font-size: 36px;
 }
 
 
