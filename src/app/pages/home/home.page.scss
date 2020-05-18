@@ -59,28 +59,22 @@ ion-header{
 #buttons {
     margin-top: 40px;
     font-family: "GothamBold";
-    color: white;
-    font-size: 17px;
 }
 
 #buttonRegister{
     font-family: "GothamBold";
-    fill: white;
-    font-size: 17px;
-    height: 50px;
-    outline: white;
-    fill: white;
+    font-size: 15px;
+    height: 65px;
+    vertical-align: center;
+    margin-bottom: 5px;
 }
 
 #buttonStartSession{
+    margin-top: 5px;
     font-family: "GothamBold";
-    text-decoration-color: white;
-    font-size: 17px;
-    height: 50px;
-    fill: "outline";
-    outline: white;
-    --background-hover: white;
-    
+    font-size: 15px;
+    height: 65px;
+    vertical-align: center;
 }
 
 #container-text{
