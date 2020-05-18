@@ -1,13 +1,43 @@
 <ion-header>
     <ion-toolbar>
-        <ion-back-button slot="start">
-        </ion-back-button>
+        <div id="buttons">
+            <ion-back-button slot="start">
+            </ion-back-button>
+
+            <ion-icon id="listen" type="ion-button" slot="icon-only" name="ear" size="large" src="assets/icon/boton escucha.svg"></ion-icon>
+        </div>
     </ion-toolbar>
 </ion-header>
 
-<ion-content>
-    <section>
-        <!-- <header>Block Width</header> -->
-        <ion-button color="white" expand="block" (click)='requiredId()'>COMENZAR</ion-button>
-    </section>
+<ion-content [fullscreen]="true">
+    <div id="container">
+        <div id="container-text">
+            <strong><h2>Ten tu cédula a mano</h2></strong>
+            <br>
+            <div id="nuevas">
+                <h3>La necesitas para ubicar el número de documento.</h3>
+                <h5>En cédulas nuevas está aquí</h5>
+                <ion-thumbnail slot="start">
+                    <ion-img [src]="assets/images/SD_CI_NUEVA_VF.png"></ion-img>
+                </ion-thumbnail>
+            </div>
+
+           <br> 
+            <div id="antiguas">
+                 <h5>En cédulas antiguas está aquí</h5>
+                 <ion-thumbnail slot="start">
+                    <ion-img [src]="assets/images/SD_CI_ANTIGUA_VF.png"></ion-img>
+                </ion-thumbnail>
+            </div>
+            <br>
+        </div>
+
+        <div id="buttons">
+            <section>
+                <!-- <header>Block Width</header> -->
+                <ion-button id="buttonComenzar" color="tertiary" expand="block" fill="outline" (click)='requiredId()'>COMENZAR</ion-button>
+            </section>
+        </div>
+    </div>
+
 </ion-content>

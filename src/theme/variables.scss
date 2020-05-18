@@ -30,6 +30,14 @@
   font-family: 'GothamMedium';
 }
 
+@font-face {
+    font-family: 'GothamBook';
+    src: url('../assets/fonts/GothamBook.ttf'); //adding GothamBook
+  }
+  
+  * {
+    font-family: 'GothamBook';
+  }
 
 :root {
     /** primary **/
@@ -51,8 +59,8 @@
     --ion-color-tertiary-rgb: 82, 96, 255;
     --ion-color-tertiary-contrast: #ffffff;
     --ion-color-tertiary-contrast-rgb: 255, 255, 255;
-    --ion-color-tertiary-shade: #4854e0;
-    --ion-color-tertiary-tint: #6370ff;
+    --ion-color-tertiary-shade: #7255C8;
+    --ion-color-tertiary-tint: #7255C8;
     /** Google **/
     --ion-color-google: #4D7DFC;
     --ion-color-google-rgb: 61, 194, 255;
