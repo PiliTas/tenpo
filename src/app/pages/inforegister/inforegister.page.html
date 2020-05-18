@@ -1,19 +1,51 @@
-<ion-header>
+<ion-header [translucent]="true" class="ion-no-border">
     <ion-toolbar>
-        <ion-back-button slot="start">
-        </ion-back-button>
+        <div id="buttons">
+            <ion-icon id="back" slot="start" size="large" name="arrow-back-outline"></ion-icon>
+            <ion-icon id="listen" type="ion-button" slot="icon-only" name="ear" size="large" src="assets/icon/boton escucha.svg"></ion-icon>
+        </div>
     </ion-toolbar>
 </ion-header>
 
-<ion-content>
-    <div id="buttons">
-        <section>
-            <!-- <header>Block Width</header> -->
-            <ion-button color="dark" expand="block">GOOGLE</ion-button>
-        </section>
-        <section>
-            <!-- <header>Block Width</header> -->
-            <ion-button color="white" expand="block" (click)='infoRegister()'>CONTINUAR CON MI CORREO</ion-button>
-        </section>
+<ion-content [fullscreen]="true">
+
+    <div id="container">
+        <div id="container-text">
+            <strong><h2>Estás list@?</h2></strong>
+            <h5>Antes de seguir queremos contarte que:</h5>
+            <br>
+            <div id="regulados">
+                <ion-icon id="luz" type="ion-button" slot="icon-only" name="luz" size="large" src="assets/icon/Icon - categoria - luz Copy 6.svg"></ion-icon>
+                <ion-icon id="ayuda" type="ion-button" slot="icon-only" name="ayuda" size="small" src="assets/icon/ico ayuda contextual.svg"></ion-icon>
+                <h3>Estamos regulados por la CMF.</h3>
+
+            </div>
+           <br> 
+            <div id="cuenta">
+                <ion-icon id="grupo2" type="ion-button" slot="icon-only" name="grupo2" size="large" src="assets/icon/Grupo 7943-2.svg"></ion-icon>
+                <h3>Abriremos una cuenta digital a tu nombre, necesitaremos algunos datos personales.</h3>
+            </div>
+            <br>
+            <div id="quedeseas">
+                <ion-icon id="listen2" type="ion-button" slot="icon-only" name="listen2" size="large" src="assets/icon/escuchando.svg"></ion-icon>
+                <h3>Si deseas continuar por voz, y audio presiona los íconos que aparecerán.</h3>
+            </div>
+            <br>
+            <h4>¡Empecemos!</h4>
+        </div>
+
+        <div id="buttons">
+            <section>
+                <!-- <header>Block Width</header> -->
+                <ion-button id="buttonGoogle" color="tertiary" expand="block" fill="solid" (click)='linkGoogle()'>CONTINUAR CON GOOGLE</ion-button>
+            </section>
+            <br>
+            <br>
+            <section>
+                <!-- <header>Block Width</header> -->
+                <ion-button id="buttonWithEmail" color="secondary" fill="solid" expand="block" (click)='infoRegister()'>CONTINUAR CON MI CORREO</ion-button>
+            </section>
+        </div>
     </div>
+
 </ion-content>
