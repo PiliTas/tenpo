@@ -1,13 +1,29 @@
-.header {
-    background-color: #00BAA4;
+
+ion-toolbar{
+    --background: #00BAA4;
+    --mode: "md";
 }
 
-.home {
+ion-title {
+    line-height: 48.83px;
+    padding: 10px 20px;
     background-color: #00BAA4;
+    left: 46.31px;
+    right: 0;
+    top: 66px;
 }
 
+ion-content{
+    --fullscreen: true;
+    --background: #00BAA4; //this was the solution for background colour!!! :)
+}
+
+ion-header{
+    background-color: #00BAA4;
+}
+ 
 #container {
-    margin-top: 10px;
+    margin: 0;
     text-align: center;
     text-decoration-color: white;
     position: absolute;
@@ -45,16 +61,16 @@
     color: #00BAA4;
 }
 
-#buttonRegister {
+#buttonRegister{
     font-family: "GothamBold";
     fill: white;
     font-size: 12px;
     height: 50px;
     outline: white;
-    --background-hover: white;
+    fill: white;
 }
 
-#buttonStartSession {
+#buttonStartSession{
     font-family: "GothamBold";
     text-decoration-color: white;
     font-size: 12px;
@@ -62,21 +78,23 @@
     fill: "outline";
     outline: white;
     --background-hover: white;
+    
 }
 
-h1 {
+h1{
     color: white;
     font-family: "GothamBold";
-    height: "29pt";
+    height: "29pt"; 
     width: "113pt";
     margin-top: "113pt";
     margin-right: "265pt";
 }
 
-h2 {
+h2{
     color: white;
     font-family: "GothamLight";
     // font-size: 36pt;
 }
+
 
 //**************
