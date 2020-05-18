@@ -23,6 +23,22 @@ buttons{
 ion-content{
     --fullscreen: true;
     --background: white; //this was the solution for background colour!!! :)
+    align-content: center;
+}
+
+ion-img{
+    justify-self: center;
+    align-content: center;
+    size: 50%;
+    margin: 0rem;
+}
+
+ion-card{
+    max-height: 164px;
+    max-width: 254px;
+    margin: 0rem;
+    text-align: center;
+    justify-items: center;
 }
 
 #container {
@@ -66,14 +82,14 @@ h2{
 h3{
     color: #333333;
     font-family: "GothamMedium";
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 
 h5{
     color: #020202;
     font-family: "GothamBook";
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -83,4 +99,13 @@ h5{
     height: 65px;
     vertical-align: center;
     margin-top: 15px;
+}
+#nuevas{
+    margin: 0px;
+    text-align: center;
+}
+
+#antiguas{
+    margin: 0px;
+    align-items: center;
 }
