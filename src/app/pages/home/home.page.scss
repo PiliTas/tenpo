@@ -20,6 +20,8 @@ ion-content{
 ion-header{
     background-color: #00BAA4;
 }
+
+
  
 #container {
     margin: 0;
@@ -58,12 +60,13 @@ ion-header{
     margin-top: 40px;
     font-family: "GothamBold";
     color: white;
+    font-size: 17px;
 }
 
 #buttonRegister{
     font-family: "GothamBold";
     fill: white;
-    font-size: 12px;
+    font-size: 17px;
     height: 50px;
     outline: white;
     fill: white;
@@ -72,7 +75,7 @@ ion-header{
 #buttonStartSession{
     font-family: "GothamBold";
     text-decoration-color: white;
-    font-size: 12px;
+    font-size: 17px;
     height: 50px;
     fill: "outline";
     outline: white;
@@ -97,7 +100,34 @@ h1{
 h2{
     color: white;
     font-family: "GothamLight";
-    font-size: 36px;
+    font-size: 34px;
+}
+
+ion-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+#footer-title{
+    vertical-align: middle;
+    display: inline;
+    align-content: center;
+}
+
+#registrate-con{
+    color: white;
+    font-family: "GothamLight";
+    font-size: 16px;
+    text-align: center;
+}
+
+#multicaja{
+    color: white;
+    font-family: "GothamMedium";
+    font-size: 16px;
+    text-align: center;
 }
 
 

@@ -21,6 +21,16 @@
     font-family: 'GothamLight';
 }
 
+@font-face {
+  font-family: 'GothamMedium';
+  src: url('../assets/fonts/GothamMedium.ttf'); //adding GothamMedium
+}
+
+* {
+  font-family: 'GothamMedium';
+}
+
+
 :root {
     /** primary **/
     --ion-color-primary: #00BAA4;
