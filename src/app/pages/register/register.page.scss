@@ -1,0 +1,31 @@
+//STYLE OF HEADER AND ITEMS IN IT
+
+ion-header{
+    --background: #F7F7F7;  
+}
+
+//setting backgound color of header
+ion-toolbar{
+    --background: #F7F7F7;
+}
+
+ion-content{
+    --fullscreen: true;
+    --background: #F7F7F7; //this was the solution for background colour!!! :)
+    --margin-left: 10px;
+}
+
+//icons in the header
+#back{
+    text-align:left;
+    float:left;
+    margin-left: 22px;
+    margin-top: 30px;
+}
+
+#listen{
+    text-align:right;
+    float:right;
+    margin-right: 22px;
+    margin-top: 30px;
+}
