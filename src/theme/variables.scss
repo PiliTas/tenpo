@@ -22,22 +22,22 @@
 }
 
 @font-face {
-  font-family: 'GothamMedium';
-  src: url('../assets/fonts/GothamMedium.ttf'); //adding GothamMedium
+    font-family: 'GothamMedium';
+    src: url('../assets/fonts/GothamMedium.ttf'); //adding GothamMedium
 }
 
 * {
-  font-family: 'GothamMedium';
+    font-family: 'GothamMedium';
 }
 
 @font-face {
     font-family: 'GothamBook';
     src: url('../assets/fonts/GothamBook.ttf'); //adding GothamBook
-  }
-  
-  * {
+}
+
+* {
     font-family: 'GothamBook';
-  }
+}
 
 :root {
     /** primary **/

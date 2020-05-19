@@ -1,5 +1,5 @@
-//home style settings
-ion-toolbar{
+
+ion-toolbar {
     --background: #00BAA4;
     --mode: "md";
 }
@@ -12,15 +12,15 @@ ion-title {
     top: 66px;
 }
 
-ion-content{
+ion-content {
     --fullscreen: true;
     --background: #00BAA4; //this was the solution for background colour!!! :)
 }
 
-ion-header{
+ion-header {
     background-color: #00BAA4;
 }
- 
+
 #container {
     margin: 0;
     text-align: center;
@@ -58,10 +58,9 @@ ion-header{
     margin-top: 40px;
     font-family: "GothamBold";
     color: #00BAA4;
-
 }
 
-#buttonRegister{
+#buttonRegister {
     font-family: "GothamBold";
     font-size: 15px;
     height: 65px;
@@ -69,7 +68,7 @@ ion-header{
     margin-bottom: 5px;
 }
 
-#buttonStartSession{
+#buttonStartSession {
     margin-top: 5px;
     font-family: "GothamBold";
     font-size: 15px;
@@ -77,52 +76,50 @@ ion-header{
     vertical-align: center;
 }
 
-#container-text{
+#container-text {
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-h1{
+h1 {
     color: white;
     font-family: "GothamBold";
-    font-size: 36px; 
+    font-size: 36px;
     width: "113pt";
     margin-top: "113pt";
     margin-right: "265pt";
 }
 
-h2{
+h2 {
     color: white;
     font-family: "GothamLight";
     font-size: 34px;
 }
 
-ion-footer{
+ion-footer {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
-
-#footer-title{
+#footer-title {
     vertical-align: middle;
     display: inline;
     align-content: center;
 }
 
-#registrate-con{
+#registrate-con {
     color: white;
     font-family: "GothamLight";
     font-size: 16px;
     text-align: center;
 }
 
-#multicaja{
+#multicaja {
     color: white;
     font-family: "GothamMedium";
     font-size: 16px;
     text-align: center;
 }
-
 
 //**************

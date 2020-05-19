@@ -4,15 +4,29 @@
         </ion-back-button>
         <ion-text>comencemos</ion-text>
         <ion-button slot="end">
+            <audio name="ear-outline">
+                <source src="assets/audio/track1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+
             <ion-icon name="ear-outline"></ion-icon>
         </ion-button>
+
+
+
+
+
+
+
+
+
     </ion-toolbar>
 </ion-header>
 
 
-<ion-content [fullscreen]="true" color="succes" i-padding>
+<ion-content [fullscreen]="true">
     <ion-text>Ingresa tu RUT, número de documento y correo</ion-text>
-    <form onsubmit="processForm(event)" color="success">
+    <form backgroundcolor="white" onsubmit="processForm(event)">
         <ion-list lines="full" class="ion-no-margin ion-no-padding">
             <ion-item>
                 <ion-label position="stacked">Rut
@@ -41,6 +55,10 @@
                     <ion-icon name="ear-outline"></ion-icon>
                 </ion-button>
                 <ion-input placeholder="Address Line 2"></ion-input>
+                <ion-button slot="end">
+                    <ion-icon name="ear-outline"></ion-icon>
+
+                </ion-button>
                 <ion-input placeholder="City"></ion-input>
                 <ion-input placeholder="State"></ion-input>
                 <ion-input placeholder="Zip Code"></ion-input>
@@ -53,7 +71,7 @@
         </ion-list>
 
         <div class="ion-padding">
-            <ion-button expand="block" type="submit" class="ion-no-margin">Continuar</ion-button>
+            <ion-button backgroundcolor="white" expand="block" type="submit" class="ion-no-margin">Continuar</ion-button>
         </div>
     </form>
 
