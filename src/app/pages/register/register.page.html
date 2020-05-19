@@ -1,6 +1,5 @@
-<!-- 
-<ion-header [translucent]="true" class="ion-no-border">
 
+<ion-header [translucent]="true" class="ion-no-border">
     <div class="tabs">
         <a class="tab-item">
             <ion-icon id="back" slot="start" size="large" name="arrow-back-outline"></ion-icon>
@@ -12,38 +11,7 @@
             <ion-icon id="listen" type="ion-button" slot="icon-only" name="ear" size="large" src="assets/icon/boton escucha.svg"></ion-icon>
         </a>
       </div> 
-</ion-header> -->
-
-<ion-header class="ion-no-border">
-    <ion-toolbar>
-        <ion-back-button slot="start">
-        </ion-back-button>
-        <ion-text>comencemos</ion-text>
-        <ion-button slot="end">
-            <audio name="ear-outline">
-                <source src="assets/audio/track1.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-              </audio>
-
-            <ion-icon name="ear-outline"></ion-icon>
-        </ion-button
-    </ion-toolbar>
 </ion-header>
-
-<!-- <ion-content [fullscreen]="true" color="success" i-padding>
-    <div class="list">
-        <label class="item item-input">
-          <input type="text" placeholder="First Name">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Last Name">
-        </label>
-        <label class="item item-input">
-          <textarea placeholder="Comments"></textarea>
-        </label>
-      </div> -->
-
-
 
     <ion-text>Ingresa tu RUT, número de documento y correo</ion-text>
     <form backgroundcolor="white" onsubmit="processForm(event)">
