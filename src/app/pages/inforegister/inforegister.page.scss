@@ -1,3 +1,17 @@
+ion-header{
+    --background: #F7F7F7;  
+}
+
+//setting backgound color of header
+ion-toolbar{
+    --background: #F7F7F7;
+}
+
+buttons{
+    --background: #F7F7F7;  
+}
+
+//icons in the header
 #back{
     text-align:left;
     float:left;
@@ -33,14 +47,6 @@
 #listen2{
     text-align:left;
     float:left;
-}
-
-ion-header{
-    --background: #F7F7F7;  
-}
-
-buttons{
-    --background: #F7F7F7;  
 }
 
 ion-content{
