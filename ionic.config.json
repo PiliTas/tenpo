@@ -1,7 +1,5 @@
 {
   "name": "tenpo",
-  "integrations": {
-    "cordova": {}
-  },
+  "integrations": {},
   "type": "angular"
 }
