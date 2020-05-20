@@ -1,11 +1,12 @@
 <ion-header class="ion-no-border">
     <ion-toolbar>
-        <div id="buttons">
-            <ion-back-button slot="start">
-            </ion-back-button>
-
-            <ion-icon id="listen" type="ion-button" slot="icon-only" name="ear" size="large" src="assets/icon/boton escucha.svg"></ion-icon>
-        </div>
+        <ion-buttons slot="start">
+            <ion-back-button slot="start" defaultHref="/"></ion-back-button>
+        </ion-buttons>
+        <ion-text>comencemos</ion-text>
+        <ion-button id="listen" slot="end" (click)="actionServicesInfo.speak2()">
+            <ion-icon type="ion-button" src="assets/icon/botonescucha.svg"></ion-icon>
+        </ion-button>
     </ion-toolbar>
 </ion-header>
 
@@ -25,11 +26,11 @@
             </div>
 
             <div id="antiguas">
-                 <h5>En cédulas antiguas está aquí</h5>
-                 <ion-card>
+                <h5>En cédulas antiguas está aquí</h5>
+                <ion-card>
                     <ion-card-content>
                         <img src="assets/images/SD_CI_ANTIGUA_VF.png" alt="">
-                      </ion-card-content>
+                    </ion-card-content>
                 </ion-card>
             </div>
 
