@@ -1,9 +1,9 @@
 <ion-header [translucent]="true" class="ion-no-border">
     <ion-toolbar>
-        <div id="buttons">
-            <ion-icon id="back" slot="start" size="large" name="arrow-back-outline"></ion-icon>
-            <ion-icon id="listen" type="ion-button" slot="icon-only" name="ear" size="large" src="assets/icon/boton escucha.svg"></ion-icon>
-        </div>
+        <ion-back-button slot="start" defaultHref="/"></ion-back-button>
+        <ion-button id="listen" slot="end" (click)="actionServicesInfo.speak1()">
+            <ion-icon type="ion-button" src="assets/icon/botonescucha.svg"></ion-icon>
+        </ion-button>
     </ion-toolbar>
 </ion-header>
 
