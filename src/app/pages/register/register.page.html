@@ -1,52 +1,50 @@
-
 <ion-header [translucent]="true" class="ion-no-border">
-    <div class="tabs">
-        <a class="tab-item">
-            <ion-icon id="back" slot="start" size="large" name="arrow-back-outline"></ion-icon>
-        </a>
-        <a class="tab-item">
-          COMENCEMOS
-        </a>
-        <a class="tab-item">
-            <ion-icon id="listen" type="ion-button" slot="icon-only" name="ear" size="large" src="assets/icon/boton escucha.svg"></ion-icon>
-        </a>
-      </div> 
+    <div class="bar bar-header">
+        <ion-back-button slot="start" id="back" size="large" name="arrow-back-outline"></ion-back-button>
+        <h5 class="title">COMENCEMOS</h5>
+        <ion-icon id="listen" slot="end" type="ion-button" name="ear" size="large" src="assets/icon/boton escucha.svg"></ion-icon>
+      </div>
+
+    <!-- <ion-toolbar>
+        <ion-back-button slot="start" id="back" size="large" name="arrow-back-outline"></ion-back-button>
+        <h5 class="title">COMENCEMOS</h5>
+        <ion-icon id="listen" slot="end" type="ion-button" name="ear" size="large" src="assets/icon/boton escucha.svg"></ion-icon>
+    </ion-toolbar> -->
 </ion-header>
 
-    <ion-text>Ingresa tu RUT, número de documento y correo</ion-text>
-    <form backgroundcolor="white" onsubmit="processForm(event)">
-        <ion-list lines="full" class="ion-no-margin ion-no-padding">
-            <ion-item>
-                <ion-label position="stacked">RUT
-                    <ion-text color="danger">*</ion-text>
-                </ion-label>
-                <ion-input required type="text" oninput="handleFirstNameValue(event)"></ion-input>
-                <ion-button slot="end">
-                    <ion-icon name="ear-outline"></ion-icon>
-                </ion-button>
-            </ion-item>
-            <ion-item>
-                <ion-label position="stacked">NUMERO DE DOCUMENTO O SERIE
-                    <ion-text color="danger">*</ion-text>
-                </ion-label>
-                <ion-input required type="text" oninput="handleLastNameValue(event)"></ion-input>
-                <ion-button slot="end">
-                    <ion-icon name="ear-outline"></ion-icon>
-                </ion-button>
-            </ion-item>
-            <ion-item>
-                <ion-label position="floating">CORREO ELECTRONICO</ion-label>
-                <ion-input></ion-input>
-                <ion-button slot="end">
-                    <ion-icon name="ear-outline"></ion-icon>
-                </ion-button>
-            </ion-item>
-        </ion-list>
+<ion-content [fullscreen]="true">
+    <div id="container">
+        <div id="container-text">
+            <strong><h2>Ingresa tu RUT, número de documento y correo</h2></strong>
 
-        <div class="ion-padding">
-            <ion-button backgroundcolor="white" expand="block" type="submit" class="ion-no-margin">Continuar</ion-button>
+            <h5>¡Recuerda! Abrir tu cuenta en Tenpo es seguro y gratis.</h5>
+
+            <div class="list">
+                <label class="item item-input">
+                  <input type="text" placeholder="Rut">
+                  <i class="icon placeholder-icon"></i>
+                </label>
+                <label class="item item-input">
+                  <input type="text" placeholder="Número de documento o serie">
+                  <i class="icon placeholder-icon"></i>
+                </label>
+                <label class="item item-input">
+                    <input type="text" placeholder="Correo electrónico">
+                    <i class="icon placeholder-icon"></i>
+                  </label>
+            </div>
+            <ion-item>
+                <ion-checkbox slot="start"></ion-checkbox>
+                <h4>Acepto conforme los términos y condiciones del servicio.</h4>
+            </ion-item>
         </div>
-    </form>
 
+        <div id="buttons">
+            <section>
+                <!-- <header>Block Width</header> -->
+                <ion-button id="buttonContinuar" color="secondary" fill="outline" expand="block" (click)='Register()'>CONTINUAR</ion-button>
+            </section>
+        </div>
+    </div>
 
 </ion-content>
