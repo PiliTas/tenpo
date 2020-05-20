@@ -1,6 +1,6 @@
 
 import { Injectable } from '@angular/core';
-import { TextToSpeech} from '@ionic-native/text-to-speech/ngx';
+import { TextToSpeech } from '@ionic-native/text-to-speech/ngx';
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +15,7 @@ export class TextspeechService {
 
 speak1(): void {
   this.tts.speak({
-  text: 'Hola. Queremos contarte que estamos regulados por la comisión para el mercado financiero',
+  text: 'Hola. Queremos contarte que estamos regulados por la comisión para el mercado financiero. Abriremos una cuenta digital a tu nombre, necesitaremos algunos datos personales. Cada vez que desees puedes escuchar y contestar por voz con los íconos.',
   rate: 1,
   locale:'es-ES'
     }).then (() => console.log('success'))
@@ -46,7 +46,7 @@ speak1(): void {
       
       speak4(): void {
           this.tts.speak({
-          text: 'Bien, ahora ingresa tu región. Comuna. Dirección.   ¡Todos tus datos son confidenciales!',
+          text: 'Bien, ahora ingresa tu región. Comuna. Dirección. ¡Todos tus datos son confidenciales!',
           rate: 1,
           locale:'es-ES'
             }).then (() => console.log('success'))
