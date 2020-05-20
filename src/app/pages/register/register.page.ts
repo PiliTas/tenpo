@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component} from '@angular/core';
+import { Router } from '@angular/router';
+import { TextspeechService } from '../../textspeech.service';
 @Component({
   selector: 'app-register',
   templateUrl: './register.page.html',
   styleUrls: ['./register.page.scss'],
 })
-export class RegisterPage implements OnInit {
+export class RegisterPage  {
 
-  constructor() { }
+  constructor(private router: Router, public actionServicesInfo:TextspeechService) { }
 
-  ngOnInit() {
-  }
-
+ 
 }
