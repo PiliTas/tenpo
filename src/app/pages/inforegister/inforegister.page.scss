@@ -1,49 +1,48 @@
-#back{
-    text-align:left;
-    float:left;
-    margin-left: 22px;
-    margin-top: 30px;
-}
-
-#listen{
-    text-align:right;
-    float:right;
-    margin-right: 22px;
-    margin-top: 30px;
+// #back {
+//     text-align: left;
+//     float: left;
+//     margin-left: 22px;
+//     margin-top: 30px;
+// }
+#listen {
+    // text-align: right;
+    // float: right;
+    // margin-top: 30px;
+    padding-right: 5%;
 }
 
 //icons before the text
-#luz{
-    text-align:left;
-    float:left;
+#luz {
+    text-align: left;
+    float: left;
 }
 
-#ayuda{
-    text-align:right;
+#ayuda {
+    text-align: right;
     float: right;
     margin-right: 10px;
     margin-top: 0em;
 }
 
-#grupo2{
-    text-align:left;
-    float:left;
+#grupo2 {
+    text-align: left;
+    float: left;
 }
 
-#listen2{
-    text-align:left;
-    float:left;
+#listen2 {
+    text-align: left;
+    float: left;
 }
 
-ion-header{
-    --background: #F7F7F7;  
+ion-header {
+    --background: #F7F7F7;
 }
 
-buttons{
-    --background: #F7F7F7;  
+#buttons {
+    --background: #F7F7F7;
 }
 
-ion-content{
+ion-content {
     --fullscreen: true;
     --background: #F7F7F7; //this was the solution for background colour!!! :)
 }
@@ -74,18 +73,18 @@ ion-content{
     text-decoration: none;
 }
 
-#container-text{
+#container-text {
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-h2{
+h2 {
     color: #020202;
     font-family: "GothamBold";
-    font-size: 20px; 
+    font-size: 20px;
 }
 
-h3{
+h3 {
     color: #333333;
     font-family: "GothamMedium";
     font-size: 15px;
@@ -95,28 +94,32 @@ h3{
     padding-left: 20px;
 }
 
-h4{
+h4 {
     color: #333333;
     font-family: "GothamBold";
     font-size: 15px;
     text-align: center;
 }
 
-h5{
+h5 {
     color: #020202;
     font-family: "GothamMedium";
     font-size: 14px;
 }
 
-#buttonGoogle{
+#buttons {
+    margin: 0px;
+}
+
+#buttonGoogle {
     font-family: "GothamBold";
     font-size: 15px;
     height: 65px;
     vertical-align: center;
-    margin-bottom: 5px;
+    // margin-bottom: 5px;
 }
 
-#buttonWithEmail{
+#buttonWithEmail {
     font-family: "GothamBold";
     font-size: 15px;
     height: 65px;

@@ -1,19 +1,12 @@
 <ion-header class="ion-no-border">
     <ion-toolbar>
-        <ion-back-button slot="start">
-        </ion-back-button>
+        <ion-buttons slot="start">
+            <ion-back-button slot="start" defaultHref="/"></ion-back-button>
+        </ion-buttons>
         <ion-text>comencemos</ion-text>
-        <ion-button slot="end">
-            <audio name="ear-outline">
-                <source src="assets/audio/track1.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-              </audio>
-
-            <ion-icon name="ear-outline"></ion-icon>
+        <ion-button id="listen" slot="end" (click)="actionServicesInfo.speak3()">
+            <ion-icon type="ion-button" src="assets/icon/botonescucha.svg"></ion-icon>
         </ion-button>
-
-
-
 
 
 

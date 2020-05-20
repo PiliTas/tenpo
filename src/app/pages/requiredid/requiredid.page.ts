@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { TextspeechService } from '../../textspeech.service';
+
+
 
 @Component({
   selector: 'app-requiredid',
@@ -8,7 +11,7 @@ import { Router } from '@angular/router';
 })
 export class RequiredidPage {
 
-  constructor( private router: Router ) { }
+  constructor( private router: Router, public actionServicesInfo:TextspeechService  ) { }
   requiredId(){
     this.router.navigateByUrl('home/inforegister/requiredid/register')
   }

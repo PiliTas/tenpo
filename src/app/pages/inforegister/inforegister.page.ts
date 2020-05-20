@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { TextspeechService } from '../../textspeech.service';
+
 
 
 @Component({
@@ -9,7 +11,7 @@ import { Router } from '@angular/router';
 })
 export class InforegisterPage {
 
-  constructor( private router: Router ) { }
+  constructor( private router: Router, public actionServicesInfo:TextspeechService ) { }
 
   infoRegister(){
     this.router.navigateByUrl('home/inforegister/requiredid')
