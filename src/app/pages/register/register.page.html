@@ -1,15 +1,13 @@
-<ion-header [translucent]="true" class="ion-no-border">
-    <div class="bar bar-header">
-        <ion-back-button slot="start" id="back" size="large" name="arrow-back-outline"></ion-back-button>
-        <h5 class="title">COMENCEMOS</h5>
-        <ion-icon id="listen" slot="end" type="ion-button" name="ear" size="large" src="assets/icon/boton escucha.svg"></ion-icon>
-      </div>
-
-    <!-- <ion-toolbar>
-        <ion-back-button slot="start" id="back" size="large" name="arrow-back-outline"></ion-back-button>
-        <h5 class="title">COMENCEMOS</h5>
-        <ion-icon id="listen" slot="end" type="ion-button" name="ear" size="large" src="assets/icon/boton escucha.svg"></ion-icon>
-    </ion-toolbar> -->
+<ion-header class="ion-no-border">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button slot="start" defaultHref="/"></ion-back-button>
+        </ion-buttons>
+        <ion-text>comencemos</ion-text>
+        <ion-button id="listen" slot="end" (click)="actionServicesInfo.speak3()">
+            <ion-icon type="ion-button" src="assets/icon/botonescucha.svg"></ion-icon>
+        </ion-button>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
@@ -42,7 +40,7 @@
         <div id="buttons">
             <section>
                 <!-- <header>Block Width</header> -->
-                <ion-button id="buttonContinuar" color="secondary" fill="outline" expand="block" (click)='Register()'>CONTINUAR</ion-button>
+                <ion-button id="buttonContinuar" color="secondary" fill="outline" expand="block">CONTINUAR</ion-button>
             </section>
         </div>
     </div>
